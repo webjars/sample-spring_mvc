@@ -5,6 +5,14 @@
     <link rel='stylesheet' media='screen' href='/public/stylesheets/bootstrap.min.css'>
     <script type='text/javascript' src='/public/javascripts/jquery.min.js'></script>
     <script type='text/javascript' src='/public/javascripts/bootstrap.min.js'></script>
+
+    <!-- ExtJS framework dependencies -->
+    <link rel="stylesheet" href="/public/resources/css/ext-all.css"/>
+    <script type="text/javascript" src="/public/ext-debug.js"></script>
+
+    <!-- test ExtJS app -->
+    <script type="text/javascript" src="app.js"></script>
+
     <style type="text/css">
         body {
             margin-top: 50px;
@@ -13,7 +21,8 @@
     <script type="text/javascript">
         $(function() {
             $("#showModalButton").bind('click', function(event) {
-                $('#myModal').modal()
+                //$('#myModal').modal()
+                alert("Hello from Intellijey and ExtJS " + Ext.getVersion('extjs'));
             })
         })
     </script>
