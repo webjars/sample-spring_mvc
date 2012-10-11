@@ -2,7 +2,7 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.jamesward</groupId>
-    <artifactId>spring_webjars_demo</artifactId>
+    <artifactId>sample-spring_mvc</artifactId>
     <version>0.1-SNAPSHOT</version>
 
     <repositories>
