@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.jamesward</groupId>
+    <groupId>org.webjars</groupId>
     <artifactId>sample-spring_mvc</artifactId>
     <version>0.1-SNAPSHOT</version>
-
-    <repositories>
-        <repository>
-            <id>webjars</id>
-            <url>http://webjars.github.com/m2</url>
-        </repository>
-    </repositories>
 
     <dependencies>
         <dependency>
